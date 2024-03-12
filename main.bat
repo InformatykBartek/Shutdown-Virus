@@ -11,7 +11,7 @@ set "filename=%timestamp%"
 
 
 echo @echo off > "%here%\%filename%.bat"
-echo shutdown -s -t 15 >> "%here%\%filename%.bat"
+echo shutdown -s -t 9 >> "%here%\%filename%.bat"
 
 
 exit 0
